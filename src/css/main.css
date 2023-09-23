@@ -1,0 +1,26 @@
+p {
+  width: 750px;
+}
+
+.cat-info {
+  display: flex;
+  gap: 200px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.breed-select {
+  display: block;
+  margin-top: 15px;
+  margin-left: 20px;
+  width: auto;
+  height: 40px;
+  font-size: 24px;
+  padding-left: 15px;
+  cursor: pointer;
+}
