@@ -18,7 +18,7 @@ const createMarkup = data => {
 const createCatCard = data => {
   const newData = [...data];
   const cat = newData.map(item => {
-    return `<img src="${item.url}" width="650" >
+    return `<img src="${item.url}" width="650" loading="lazy" >
             <div>
                 <h1>${item.breeds[0].name}</h1>
                 <p>${item.breeds[0].description}</p>
