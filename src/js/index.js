@@ -25,7 +25,6 @@ const createCatCard = data => {
                 <p><span class="bold" >Temperament</span>: ${item.breeds[0].temperament}</p>
             </div>`;
   });
-  console.log(cat.join(''));
   refs.info.innerHTML = cat;
 };
 
